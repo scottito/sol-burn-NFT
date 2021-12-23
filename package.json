@@ -1,0 +1,31 @@
+{
+  "name": "sol-burn-nft",
+  "version": "1.0.0",
+  "description": "A simple program to burn tokens in an owned wallet from commandline",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottito/sol-burn-NFT.git"
+  },
+  "dependencies": {
+   "@project-serum/anchor" : "^0.19.1-beta.1",
+   "@solana/web3.js" : "^1.21.0",
+   "commander" : "^8.3.0",
+   "fs" : "^0.0.1-security",
+   "@solana/spl-token" : "^0.1.8"
+  },
+  "keywords": [
+    "Solana",
+    "NFT",
+    "Burn"
+  ],
+  "author": "Scott Hardman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scottito/sol-burn-NFT/issues"
+  },
+  "homepage": "https://github.com/scottito/sol-burn-NFT#readme"
+}
